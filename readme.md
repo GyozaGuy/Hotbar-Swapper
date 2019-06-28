@@ -33,9 +33,13 @@ That's it!
 
 ## Known issues
 
-If you have a loadout that contains consumable items and you eat or use them all after adding them to the loadout _before_ you have switched to another loadout and back, those items won't save their spots on the hotbar when you switch back. If you add them to the hotbar and switch loadouts and come back, then you can safely eat or use all of the items and switch loadouts and there will still be placeholders for them when you switch back.
+- If you have a loadout that contains consumable items and you eat or use them all after adding them to the loadout _before_ you have switched to another loadout and back, those items won't save their spots on the hotbar when you switch back. If you add them to the hotbar and switch loadouts and come back, then you can safely eat or use all of the items and switch loadouts and there will still be placeholders for them when you switch back.
 
 **tl;dr: It's a good idea to swap loadouts at least once after adding items before using them if they are consumable (e.g. food and structures)!**
+
+- Occasionally items might appear on hotbars they were not saved on. I'm still tracking down this issue which is likely a minor network replication issue.
+
+- In single player, a message about items being added to your inventory will show when switching to a loadout that has consumable/structure items that have already all been used.
 
 ## Future plans
 
