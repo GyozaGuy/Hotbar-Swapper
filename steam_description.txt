@@ -9,7 +9,7 @@ This mod lets you configure your own keyboard shortcuts, because nobody likes be
 1. Find your Input.ini file, located by default at:
 [code]C:\Program Files (x86)\Steam\steamapps\common\ARK\ShooterGame\Saved\Config\WindowsNoEditor\Input.ini[/code]
 
-2. Paste the following four lines at the bottom of the file, under the other "ActionMappings" lines (in the "[/Script/Engine.InputSettings]" section):
+2. Paste the following four lines at the bottom of the file, under the other "ActionMappings" lines (in the "[ /Script/Engine.InputSettings ]" section, without the spaces before and after the brackets. I have to add the spaces here or Steam changes the case of the letters.):
 [code]ActionMappings=(ActionName="HotbarSwapper_NewLoadout",Key=N,bShift=False,bCtrl=True,bAlt=False,bCmd=False)
 ActionMappings=(ActionName="HotbarSwapper_DeleteLoadout",Key=X,bShift=False,bCtrl=True,bAlt=False,bCmd=False)
 ActionMappings=(ActionName="HotbarSwapper_NextLoadout",Key=MouseScrollDown,bShift=False,bCtrl=True,bAlt=False,bCmd=False)
