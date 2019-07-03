@@ -33,9 +33,15 @@ That's it!
 
 [b]tl;dr: It's a good idea to swap loadouts at least once after adding items before using them if they are consumable (e.g. food and structures)![/b]
 
+- As a side effect of the above issue, if you remove an item from the hotbar, then switch loadouts and switch back, that item will show up again. If the item is not in your inventory, the item will appear in faded out/placeholder form.
+
 - Occasionally items might appear on hotbars they were not saved on. I'm still tracking down this issue which is likely a minor network replication issue.
 
+- Some people experience crashes when starting single player with this mod. I'm still trying to figure out why.
+
 - In single player, a message about items being added to your inventory will show when switching to a loadout that has consumable/structure items that have already all been used.
+
+- Loadouts are lost upon death. I have a fix in mind but it will take time to implement.
 
 [h1]Future plans[/h1]
 
