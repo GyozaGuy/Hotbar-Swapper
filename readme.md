@@ -33,6 +33,8 @@ That's it!
 
 ## Known issues
 
+- This mod currently does not work in singleplayer, but I'm looking for a fix.
+
 - If you have a loadout that contains consumable items and you eat or use them all after adding them to the loadout _before_ you have switched to another loadout and back, those items won't save their spots on the hotbar when you switch back. If you add them to the hotbar and switch loadouts and come back, then you can safely eat or use all of the items and switch loadouts and there will still be placeholders for them when you switch back.
 
 **tl;dr: It's a good idea to swap loadouts at least once after adding items before using them if they are consumable (e.g. food and structures)!**
